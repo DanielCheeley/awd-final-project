@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Cinzel+Decorative:wght@400;700;900&family=DM+Serif+Display:ital@1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(./assets/blueSky.jpg);
+  /*set to 1920x1080 for full background coverage*/
+  background-size: 1920px 1080px;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+.container {
+  backdrop-filter: blur(8px);
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 40px;
+  text-align: center;
+}
+
+h1 {
+  font-family: Cinzel Decorative, cursive;
+  font-size: 4em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#subtitle {
+  font-family: Cinzel Decorative, 'DM Serif Display', serif;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 0.8em;
+  color: #ccc;
+}
