@@ -65,7 +65,7 @@ function App() {
       {watchlist.length > 0 ? (
         <WatchlistCarousel watchlist={watchlist} onRemove={removeFromWatchlist} onEdit={updateWatchlistGame} />
       ) : (
-        <p>Your wishlist is empty.</p>
+        <p>Your wishlist is empty. Search and add a game to get started.</p>
       )}
 
       <footer>&copy; 2026 Daniel Cheeley | BlueSky &nbsp; All Rights Reserved.</footer>
